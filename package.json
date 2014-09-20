@@ -1,0 +1,28 @@
+{
+  "name": "looper",
+  "version": "0.0.1",
+  "description": "Async looping for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdegges/node-looper"
+  },
+  "keywords": [
+    "node",
+    "loop",
+    "for",
+    "async"
+  ],
+  "author": "Randall Degges",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/rdegges/node-looper/issues"
+  },
+  "homepage": "https://github.com/rdegges/node-looper",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
