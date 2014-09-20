@@ -1,5 +1,5 @@
 {
-  "name": "looper",
+  "name": "lupus",
   "version": "0.0.1",
   "description": "Async looping for Node.js.",
   "main": "index.js",
@@ -8,20 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdegges/node-looper"
+    "url": "https://github.com/rdegges/node-lupus"
   },
   "keywords": [
     "node",
     "loop",
     "for",
-    "async"
+    "async",
+    "flow",
+    "control"
   ],
   "author": "Randall Degges",
   "license": "UNLICENSE",
   "bugs": {
-    "url": "https://github.com/rdegges/node-looper/issues"
+    "url": "https://github.com/rdegges/node-lupus/issues"
   },
-  "homepage": "https://github.com/rdegges/node-looper",
+  "homepage": "https://github.com/rdegges/node-lupus",
   "devDependencies": {
     "mocha": "^1.21.4"
   }
