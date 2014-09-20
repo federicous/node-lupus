@@ -4,16 +4,16 @@
  * Dependencies.
  */
 var assert = require('assert');
-var looper = require('..');
+var lupus = require('..');
 
 /**
  * Tests.
  */
-describe('looper()', function() {
+describe('lupus()', function() {
   it('should increment the counter 10 times', function(done) {
     var counter = 0;
 
-    looper(0, 10, function(n) {
+    lupus(0, 10, function(n) {
       counter++;
     }, function() {
       assert.equal(counter, 10);
@@ -22,7 +22,7 @@ describe('looper()', function() {
   });
 
   it('should optionally accept a done callback', function(done) {
-    looper(0, 10, function() {
+    lupus(0, 10, function() {
       done();
     });
   });
