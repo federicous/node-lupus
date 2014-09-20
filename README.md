@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/lupus.svg?style=flat)](https://npmjs.org/package/lupus)
 [![NPM Downloads](http://img.shields.io/npm/dm/lupus.svg?style=flat)](https://npmjs.org/package/lupus)
-[![Build Status](https://img.shields.io/travis/rdegges/lupus.svg?style=flat)](https://travis-ci.org/rdegges/lupus)
+[![Build Status](https://img.shields.io/travis/rdegges/node-lupus.svg?style=flat)](https://travis-ci.org/rdegges/node-lupus)
 
 *Async looping for Node.js*
 
