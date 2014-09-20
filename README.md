@@ -6,6 +6,8 @@
 
 *Async looping for Node.js*
 
+![Banana Peel Sketch](https://github.com/rdegges/node-lupus/raw/master/assets/banana-peel.jpg)
+
 
 ## Meta
 
