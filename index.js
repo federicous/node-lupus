@@ -13,14 +13,19 @@
  * @param {Function} callback - The callback to run at each iteration of the
  *   loop. The callback should have signature: callback(num) where num is the
  *   integer being processed.
+ *  @param {Function} done - The OPTIONAL callback to run once the loop has been
+ *    fully iterated over.
  */
-module.exports = function(start, stop, callback) {
+module.exports = function(start, stop, callback, done) {
   var task, iterator;
   var current = start;
 
   iterator = function() {
     if (current >= stop) {
       clearInterval(task);
+      if (done) {
+        done();
+      }
     } else {
       callback(current++);
     }
